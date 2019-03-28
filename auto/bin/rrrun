@@ -1,0 +1,4 @@
+#!/bin/bash
+           /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java -version 
+                          echo 
+           /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java -javaagent:/home/hungds/Desktop/Thesis2019/Original_VerifiedFT/build/jar/rragent.jar $JVM_ARGS -Xbootclasspath/p:/home/hungds/Desktop/Thesis2019/Original_VerifiedFT/classes:/home/hungds/Desktop/Thesis2019/Original_VerifiedFT/jars/java-cup-11a.jar: rr.RRMain $*
