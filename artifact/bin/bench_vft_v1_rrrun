@@ -5,6 +5,6 @@ CMD="./TEST_BENCH -classpath=original.jar -tool=FT2-V1 -quiet -maxWarn=1 -benchm
 echo ""
 echo "Command: $CMD"
 echo ""
-
+echo "...................................................*******............................"
 $CMD
 
